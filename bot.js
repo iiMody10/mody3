@@ -1,10 +1,16 @@
 const Discord = require("discord.js");
 
+const Util = require("discord.js");
+
 const ytdl = require("ytdl-core");
+
+const fs = require("fs");
 
 const { Client, Util } = require('discord.js');
 
 const getYoutubeID = require('get-youtube-id');
+
+const gif = require('gif-search');
 
 const fetchVideoInfo = require('youtube-info');
 
@@ -14,18 +20,12 @@ const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 
 const queue = new Map();
 
-const client = new Discord.Client();
- 
-/*
-البكجآت
-npm install discord.js
-npm install ytdl-core
-npm install get-youtube-id
-npm install youtube-info
-npm install simple-youtube-api
-npm install queue
-*/
- 
+const client = new Discord.Client({disableEveryone: true});
+
+const prefix = '!';
+ /////////////////////////
+ ////////////////////////
+
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
     client.user.setStatus("Online")
