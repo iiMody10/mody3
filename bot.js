@@ -21,6 +21,11 @@ channel.send(`تبا يا ال سالم`);
 channel.send(`test`);
 }, 10)
 })
- 
+
+
+
+
+
+
  
 client.login(process.env.BOT_TOKEN);
