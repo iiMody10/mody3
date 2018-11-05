@@ -23,4 +23,4 @@ channel.send(`test`);
 })
  
  
-client.login('NTA1ODAzNzA1NjAyMjc3Mzc3.DsDy_Q.BYMdV9qCnHPNYHcdbwrMF9QYBxo');
+client.login(process.env.BOT_TOKEN);
