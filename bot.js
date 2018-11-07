@@ -12,8 +12,6 @@ var channel = "509529711093874711";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , **')
     },1);
-    client.guilds.get(server).channels.get(channel).send('**dgyjyk , 5kasdgfre , ASDsasada , d5asdsad , sadtgr , tujrth , adwegregr , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , 5kkkkk , **')
-    },1);
 })
   
   
